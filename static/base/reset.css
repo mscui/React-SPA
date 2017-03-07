@@ -1,0 +1,56 @@
+/**
+ * reset.css
+ * based on normalize.css v3.0.2
+ */
+
+/*reset*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dd,
+ol,
+ul,
+menu,
+p,
+pre,
+blockquote,
+figure,
+fieldset {
+    margin: 0;
+}
+
+ol,
+ul,
+menu,
+fieldset,
+input,
+textarea {
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+th {
+    text-align: inherit;
+}
+
+i {
+    font-style: normal;
+}

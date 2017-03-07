@@ -1,0 +1,135 @@
+.center-x {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.center-y {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.center-xy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.bg(@url) {
+    @width: image-width(@url);
+    @height: image-height(@url);
+    .px2rem(width, unit(@width));
+    .px2rem(height, unit(@height));
+    // width: @width;
+    // height: @height;
+    background: url("@{url}") no-repeat center center;
+    background-size: @width @height;
+}
+.bgs(@width, @height) {
+    width: @width;
+    height: @height;
+    background-size: @width @height;
+}
+
+.top(@top: 0) {
+    position: absolute;
+    top: @top;
+}
+.left(@left: 0) {
+    position: absolute;
+    left: @left;
+}
+.right(@right: 0) {
+    position: absolute;
+    right: @right;
+}
+.bottom(@bottom: 0) {
+    position: absolute;
+    bottom: @bottom;
+}
+
+.transform(@value) {
+    -webkit-transform: @value;
+    -ms-transform: @value;
+    transform: @value;
+}
+.transform-style(@value) {
+    -webkit-transform-style: @value;
+    transform-style: @value;
+}
+.transform-origin(@value) {
+    -webkit-transform-origin: @value;
+    transform-origin: @value;
+}
+.transition(@value) {
+    -webkit-transition: @value;
+    -ms-transition: @value;
+    transition: @value;
+}
+
+.keyframes(@name, @value) {
+    @-webkit-keyframes @name {
+        @value();
+    }
+    @-ms-keyframes @name {
+        @value();
+    }
+    @keyframes @name {
+        @value();
+    }
+}
+.animation(@value) {
+    -webkit-animation: @value;
+    -ms-animation: @value;
+    animation: @value;
+}
+
+
+.box-shadow(@value) {
+    -webkit-box-shadow: @value;
+    -ms-box-shadow: @value;
+    box-shadow: @value;
+}
+
+.util__center_wrap {
+    display: table;
+}
+.util__center_wrap_inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.util__center {
+    margin: 0 auto;
+}
+
+// 针对移动端的mixin
+// 例如: .px2rem(height, 80);
+.px2rem(@name, @px){
+    @{name}: @px / 75 * 1rem;
+}
+// 任何手机屏幕上字体大小都要统一
+// .px2px(font-size, 36);
+.px2px(@name, @px){
+    @{name}: round(@px / 2) * 1px;
+    [data-dpr="2"] & {
+        @{name}: @px * 1px;
+    }
+    // for mx3
+    [data-dpr="2.5"] & {
+        @{name}: round(@px * 2.5 / 2) * 1px;
+    }
+    // for 小米note
+    [data-dpr="2.75"] & {
+        @{name}: round(@px * 2.75 / 2) * 1px;
+    }
+    [data-dpr="3"] & {
+        @{name}: round(@px / 2 * 3) * 1px
+    }
+    // for 三星note4
+    [data-dpr="4"] & {
+        @{name}: @px * 2px;
+    }
+}

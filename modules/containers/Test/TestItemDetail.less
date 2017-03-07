@@ -1,0 +1,212 @@
+@import (reference) "/static/base/util.less";
+
+.testDetail_header {
+    .px2rem(padding, 24);
+    border: 1px solid #eee;
+}
+.testDetail_header_img {
+    float: left;
+    margin-right: 20px;
+}
+.testDetail_header_content {
+    .px2rem(height, 110);
+    .px2rem(line-height, 90);
+}
+.testDetail_header_content_title {
+    .px2px(font-size, 32);
+    color: #333;
+    .px2rem(line-height, 64);
+}
+.testDetail_header_content_person {
+    .px2rem(height, 26);
+    .px2rem(line-height, 26);
+}
+.testDetail_header_content_person_img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.testDetail_header_content_person_num {
+    color: #ccc;
+    .px2px(font-size, 26);
+    vertical-align: middle;
+}
+.testDetail_progress {
+    .px2rem(padding-top, 60);
+    .px2rem(padding-right, 35);
+    .px2rem(padding-bottom, 60);
+    .px2rem(padding-left, 35);
+}
+.testDetail_progress_num {
+    color: #ffc649;
+    margin-right: 10px;
+    .px2px(font-size, 26);
+    vertical-align: middle;
+}
+.testDetail_progress_bar {
+    .px2rem(height, 4);
+    border: 1px solid #eee;
+    background-color: #e6e6e6;
+    .px2rem(width, 600);
+    display: inline-block;
+    vertical-align: middle;
+}
+.testDetail_progress_bar_num {
+    background-color: #ffde45;
+    .px2rem(height, 3);
+}
+.testDetail_question {
+    .px2rem(padding-right, 44);
+    .px2rem(padding-left, 35);
+    .px2rem(padding-bottom, 35);
+    .px2rem(padding-top, 35);
+    border-bottom: 1px solid #eee;
+    // display: none;
+}
+.testDetail_question_title {
+    .px2px(font-size, 35);
+    .px2rem(margin-bottom, 40);
+    color: #333;
+}
+.testDetail_question_content {
+    .px2rem(height, 90);
+    .px2px(font-size, 35);
+}
+.testDetail_question_content_option {
+    .px2px(font-size, 26);
+    vertical-align: top;
+}
+.testDetail_question_button {
+    float: right;
+}
+.testDetail_question_button > input {
+    visibility: hidden;
+    position: absolute;
+}
+.testDetail_question_button > input + i,
+.testDetail_question_button > input {
+    background: url(static/img/normal.png) no-repeat center center;
+    .px2rem(height, 31);
+    .px2rem(width, 31);
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+}
+.testDetail_question_button > input:checked + i {
+    background: url(static/img/isCheck.png) no-repeat center center;
+}
+.testDetail_score {
+    // display: none;
+    .px2rem(padding-right, 44);
+    .px2rem(padding-left, 35);
+    .px2rem(padding-bottom, 35);
+    .px2rem(padding-top, 35);
+    border-bottom: 1px solid #eee;
+}
+.testDetail_score_title {
+    .px2px(font-size, 35);
+    .px2rem(margin-bottom, 40);
+    color: #333;
+}
+.testDetail_score_content {
+    .px2rem(height, 130);
+    .px2px(font-size, 35);
+    position: relative;
+}
+.testDetail_score_content_option {
+    .px2px(font-size, 28);
+    vertical-align: middle;
+}
+.testDetail_score_content_score {
+    position: absolute;
+    right: 0;
+    .px2rem(margin-top, 10);
+}
+.testDetail_score_content_score_option {
+    color: #999;
+    .px2px(font-size, 28);
+    .px2rem(margin-right, 40);
+    display: inline-block;
+    .px2rem(height, 45);
+    .px2rem(width, 52);
+    text-align: center;
+}
+.testDetail_score_content_score_option.active {
+    background: url(/static/img/heart.png) no-repeat center center;
+    color: #fff;
+}
+.testDetail_jump {
+    .px2rem(padding-right, 44);
+    .px2rem(padding-left, 35);
+    .px2rem(padding-bottom, 35);
+    .px2rem(padding-top, 35);
+    border-bottom: 1px solid #eee;
+    // display: none;
+}
+.testDetail_jump_title {
+    .px2px(font-size, 35);
+    .px2rem(margin-bottom, 40);
+    color: #333;
+}
+.testDetail_jump_content {
+    .px2rem(height, 90);
+    .px2px(font-size, 35);
+}
+.testDetail_jump_content_option {
+    .px2px(font-size, 26);
+    vertical-align: top;
+}
+.testDetail_jump_button {
+    float: right;
+}
+.testDetail_jump_button > input {
+    visibility: hidden;
+    position: absolute;
+}
+.testDetail_jump_button > input + i,
+.testDetail_jump_button > input {
+    background: url(static/img/normal.png) no-repeat center center;
+    .px2rem(height, 31);
+    .px2rem(width, 31);
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+}
+.testDetail_jump_button > input:checked + i {
+    background: url(static/img/isCheck.png) no-repeat center center;
+}
+.testDetail_button {
+    .px2rem(padding-top, 35);
+    .px2rem(padding-bottom, 35);
+    .px2rem(padding-left, 24);
+    .px2rem(padding-right, 35);
+}
+.testDetail_button_goback,
+.testDetail_button_next {
+    .px2px(font-size, 30);
+    color: #999;
+}
+.testDetail_button_next,
+.testDetail_button_result {
+    float: right;
+}
+.testDetail_button_result {
+    .px2rem(width, 316);
+    .px2rem(height, 80);
+    .px2px(font-size, 30);
+    background-color: #ffc649;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+.disable_button {
+    display: none;
+}
+.cantMove_button {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

@@ -1,0 +1,76 @@
+@import (reference) "/static/base/util.less";
+
+.active-detail {
+    .px2rem(padding-top, 30);
+    .px2rem(padding-right, 20);
+    .px2rem(padding-bottom, 150);
+    .px2rem(padding-left, 20);
+}
+.active-detail_title {
+    color: #333;
+    .px2px(font-size, 42);
+    .px2rem(margin-bottom, 40);
+    text-align: center;
+}
+.active-detail_price {
+    .px2rem(margin-bottom, 35);
+    .px2rem(margin-top, 20);
+}
+.active-detail_price_discount {
+    color: #ff5b23;
+    .px2px(font-size, 34);
+    .px2rem(margin-right, 10);
+}
+.active-detail_price_origin {
+    color: #bdbdbd;
+    .px2px(font-size, 34);
+    text-decoration: line-through;
+}
+.active-detail_info_time,
+.active-detail_info_location,
+.active-detail_info_person {
+    .px2rem(margin-bottom, 20);
+}
+.active-detail_info_time_img,
+.active-detail_info_location_img,
+.active-detail_info_person_img {
+    .px2rem(margin-right, 20);
+}
+.active-detail_info_time_span {
+    .px2rem(margin-right, 20);
+}
+.active-detail_info_time_span,
+.active-detail_info_location_span,
+.active-detail_info_person_span {
+    color: #333;
+    .px2px(font-size, 26);
+}
+.active-detail_main {
+    .px2rem(margin-top, 20);
+}
+.active-detail_main_title {
+    .px2px(font-size, 32);
+    .px2rem(margin-bottom, 20);
+    color: #333;
+    font-weight: 700;
+}
+.active-detail_main_content {
+    color: #4d4d4d;
+    .px2px(font-size, 30);
+    .px2rem(line-height, 60);
+}
+.active-detail_button {
+    width: 100%;
+    background-color: #77b5fe;
+    color: #fff;
+    .px2px(font-size, 35);
+    .px2rem(line-height, 35);
+    .px2rem(height, 100);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    border: 0;
+}
+.active-detail_button.disable {
+    background-color: #ccc;
+}

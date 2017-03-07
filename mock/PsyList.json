@@ -1,0 +1,50 @@
+{
+  "code":"success",
+  "result":"成功",
+  "data":[{
+    "id":1,
+    "title":"职场测试题-DISC",
+    "desc":"在每一个大标题中的四个选择题中只选择一个最符合你自己的，并在英文字母后面做记号。一共40题。不能遗漏。  注意：请按第一印象最快的选择，如果不能确定，可回忆童年时的情况，或者以你最熟悉的人对你的评价来从中选择。",
+    "type":1,
+    "imgUrl":"/static/img/sample-img.png",
+    "createTime":12313123131,
+    "updateTime":131231311313,
+    "creater":"杨雪",
+    "updater":"杨雪",
+    "remark":"备注",
+    "yn":1,
+    "valid":1,
+    "firstSubjectCode":"1",
+    "personNum":12
+  },{
+    "id":2,
+    "title":"职场测试题-DISC",
+    "desc":"在每一个大标题中的四个选择题中只选择一个最符合你自己的，并在英文字母后面做记号。一共40题。不能遗漏。  注意：请按第一印象最快的选择，如果不能确定，可回忆童年时的情况，或者以你最熟悉的人对你的评价来从中选择。",
+    "type":1,
+    "imgUrl":"/static/img/sample-img.png",
+    "createTime":12313123131,
+    "updateTime":131231311313,
+    "creater":"杨雪",
+    "updater":"杨雪",
+    "remark":"备注",
+    "yn":1,
+    "valid":1,
+    "firstSubjectCode":"1",
+    "personNum":12
+  },{
+    "id":3,
+    "title":"职场测试题-DISC",
+    "desc":"在每一个大标题中的四个选择题中只选择一个最符合你自己的，并在英文字母后面做记号。一共40题。不能遗漏。  注意：请按第一印象最快的选择，如果不能确定，可回忆童年时的情况，或者以你最熟悉的人对你的评价来从中选择。",
+    "type":1,
+    "imgUrl":"/static/img/sample-img.png",
+    "createTime":12313123131,
+    "updateTime":131231311313,
+    "creater":"杨雪",
+    "updater":"杨雪",
+    "remark":"备注",
+    "yn":1,
+    "valid":1,
+    "firstSubjectCode":"1",
+    "personNum":12
+  }]
+}

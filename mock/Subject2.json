@@ -1,0 +1,102 @@
+{
+  "code":"success",
+  "result":"成功",
+  "data":{
+    "id":1,
+    "title":"职场测试题-DISC",
+    "desc":"在每一个大标题中的四个选择题中只选择一个最符合你自己的，并在英文字母后面做记号。一共40题。不能遗漏。  注意：请按第一印象最快的选择，如果不能确定，可回忆童年时的情况，或者以你最熟悉的人对你的评价来从中选择。",
+    "type":1,
+    "imgUrl":"static/img/1.jpg",
+    "createTime":12313123131,
+    "updateTime":131231311313,
+    "creater":"杨雪",
+    "updater":"杨雪",
+    "remark":"备注",
+    "yn":1,
+    "valid":1,
+    "firstSubjectCode":"1",
+    "personNum":12,
+    "subjects":[
+        {
+            "id": 1,
+            "refId": 2,
+            "code": "1",
+            "title": "测试题二:",
+            "imgUrl": "static/img/1.jpg",
+            "options": [
+              {
+                "id": 5,
+                "refId": 1,
+                "title": "富于冒险:愿意面对新事物并敢于下决心掌握的人",
+                "imgUrl": "static/img/1.jpg",
+                "score": 2,
+                "scoreType": 1,
+                "resultId": 1,
+                "resultCode": "D",
+                "nextSubjectCode": "1"
+              },{
+                "id": 6,
+                "refId": 1,
+                "title": " 适应力强:轻松自如适应任何环境",
+                "imgUrl": "static/img/1.jpg",
+                "score": 2,
+                "scoreType": 1,
+                "resultId": 2,
+                "resultCode": "S",
+                "nextSubjectCode": "2"
+              },{
+                "id": 7,
+                "refId": 1,
+                "title": "生动:充满活力,表情生动,多手势",
+                "imgUrl": "static/img/1.jpg",
+                "score": 2,
+                "scoreType": 1,
+                "resultId": 3,
+                "resultCode": "I",
+                "nextSubjectCode": "3"
+              },{
+                "id": 8,
+                "refId": 1,
+                "title": "善于分析:喜欢研究各部分之间的逻辑和正确的关系",
+                "imgUrl": "static/img/1.jpg",
+                "score": 2,
+                "scoreType": 1,
+                "resultId": 4,
+                "resultCode": "C",
+                "nextSubjectCode": "#"
+              }]
+          }
+    ],
+    "results":[{
+      "id":1,
+      "psyTestId":2,
+      "code":"D",
+      "title":"Domin ance－支配型/控制者",
+      "desc":"在情感方面  D型人一个坚定果敢的人，酷好变化，喜欢控制",
+      "imgUrl":"static/img/1.jpg"
+    },{
+      "id":2,
+      "psyTestId":2,
+      "code":"I",
+      "title":"Influen ce－活泼型/ 社交者  ",
+      "desc":"在情感方面 I型人是一个情感丰富而外露的人，由于性格活跃，爱说，爱讲故事，幽默",
+      "imgUrl":"static/img/2.jpg"
+    },{
+      "id":1,
+      "psyTestId":2,
+      "code":"S",
+      "title":"Steadiness－稳定型/支持者",
+      "desc":"在情感方面  S型人是一个温和主义者",
+      "imgUrl":"static/img/3.jpg"
+    },{
+      "id":4,
+      "psyTestId":2,
+      "code":"C",
+      "title":"Compli ance－完美型/服从者",
+      "desc":"高C型的人通常是喜欢追求完美的专业型人才  ",
+      "imgUrl":"static/img/4.jpg"
+    }]
+  }
+}
+
+

@@ -1,0 +1,28 @@
+{
+  "data":"success",
+  "result":"成功",
+  "data":{
+    "id":1,
+    "orderId":111111111,
+    "openId":"1312412412313dfsfd",
+    "passKey":"131",
+    "pin":"杨雪",
+    "tel":"13910235483",
+    "activityId":10,
+    "title":"如何应对职场",
+    "imgUrl":"static/2.jpg",
+    "orderTimeS":"2017-09-12 12:00:00",
+    "completeTimeS":"2017-09-12 12:00:00",
+    "expireTimeS":"2017-09-12 12:00:00",
+    "prepayId":"3123kjk34jk23h4k1321",
+    "status":1,
+    "price":"50",
+    "userName":"张三",
+    "userTel":"123445667777",
+    "needPrice":50,
+    "payedPrice":50,
+    "yn":1,
+    "users": [{"name": "AAA", "tel": "13800138000"},{"name": "BBB", "tel": "13800138001"}],
+    "remark":"备注"
+  }
+}

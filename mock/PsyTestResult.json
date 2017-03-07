@@ -1,0 +1,13 @@
+{
+  "code":"success",
+  "result":"成功",
+  "data": {
+    "id":4,
+    "psyTestId":2,
+    "code":"C",
+    "title":"Compli ance－完美型/服从者",
+    "desc":"高C型的人通常是喜欢追求完美的专业型人才  ",
+    "imgUrl":"static/img/4.jpg",
+    "personNum": 0
+  }
+}
